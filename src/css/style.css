@@ -1,0 +1,97 @@
+body {
+    background:rgb(254,255,216);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width:645px;
+    background-color:rgb(255,255,255);
+    font-size:14px;
+    box-shadow: 0 0 10px #666;
+    margin:100px auto;
+    padding:10px;
+    position: relative;
+    height: 302px;
+}
+nav{
+    top: 50px;
+    left: 250px;
+}
+ul {
+    margin:0;padding:0;
+    width:999px;
+}
+
+li {
+    position:relative;
+    display:inline-block;
+    list-style-type:none;
+    width:207px;
+    height:300px;
+    border:1px solid #DDD;
+    margin-right:6px;
+    background: red;
+    
+}
+
+a {
+    color:#444;
+    font-size:1.05em;
+}
+.container {
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+    height:300px;
+    background:#FFF;
+    transition: all 500ms;			
+    z-index:1;
+}
+
+.container:hover {
+    background:#29292f
+}
+.coluna_icon {
+    position:relative;
+    top:200px;
+    text-align:center;	
+}
+.icon-img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.coluna_icon h5{
+    margin:18px 0 0 0;
+	padding-bottom:0;
+	border-top:none;
+	border-bottom:none;
+	font-size:1.1em;
+	text-transform:uppercase;
+    color:#333;
+    font-family: 'Roboto', sans-serif;
+}
+.coluna_cliqueAqui {
+    position:absolute;
+    top:250px;
+    width:100%;
+    text-align:center;
+    display:none;	
+}
+.coluna_cliqueAqui p {
+    color:#ef4135;
+	font-size:0.9em;
+	border-bottom:3px solid #3d3d45;
+	font-weight:bold;
+}
+.coluna_logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
