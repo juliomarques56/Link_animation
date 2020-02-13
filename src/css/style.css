@@ -3,6 +3,19 @@ body {
     padding: 0;
     background:rgb(52, 38, 78);
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+    #row{
+        height: 150px;
+    }
+}
+
+.row{
+    height: 300px;
 }
 
 main {
@@ -10,79 +23,80 @@ main {
     background-color:rgb(255,255,255);
     font-size:14px;
     box-shadow: 0 0 20px rgb(248, 248, 248);
-    margin:5px auto;
-    padding:10px;
+    margin:70px auto; 
+    padding-bottom: 0.8%;
     position: relative;
-   
 }
 
-
-ul {
-    margin:0 ;padding:0;
-    width:100%;
-}
-
-li {
-    position:relative;
-    display:inline-block;
-    list-style-type:none;
-    width:207px;
-    height:300px;
+.coluna-base {
+    height: 100%;
     border:1px solid #DDD;
-    margin-right:6px;    
+    margin: 0.5%;
 }
 
 a {
-    color:#444;
+    position: relative;
     font-size:1.05em;
 }
-.container {
+
+.principal {
     position:absolute;
     top:0;left:0;
     width:100%;
-    height:300px;
-    background:#FFF;
+    height: 100%;
     transition: all 500ms;			
-    z-index:1;
 }
+.principal:hover {
+    background:#29292f;
+    text-decoration: none;
+}
+/* Início - background-color de cada coluna*/
+.cor-instagram{
+    background: linear-gradient(45DEG,#405DE6,#5851DB,#833AB4,#E1306C,#FD1D1D);
+}
+.cor-facebook{
+    background: #3b5998;
+}
+.cor-whatsapp{
+    background:  #4AC959;
+}
+.cor-github{
+    background: #171515;
+}
+.cor-linkedin{
+    background: #219fda;
+}
+/*Fim cores */
 
-.container:hover {
-    background:#29292f
-}
 .coluna_icon {
     position:relative;
-    top:200px;
+    top:70%;
     text-align:center;	
 }
-.icon-img{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
 .coluna_icon h5{
     margin:18px 0 0 0;
 	padding-bottom:0;
 	border-top:none;
 	border-bottom:none;
-	font-size:1.1em;
+    font-size:1.1rem;
 	text-transform:uppercase;
-    color:#333;
-    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+.icon-img{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    display: none;
 }
 .coluna_cliqueAqui {
     position:absolute;
-    top:250px;
+    top:90%;
     width:100%;
-    text-align:center;
     display:none;	
 }
 .coluna_cliqueAqui p {
     color:#ef4135;
-	font-size:0.9em;
+	font-size:0.9rem;
 	border-bottom:3px solid #3d3d45;
 	font-weight:bold;
 }
