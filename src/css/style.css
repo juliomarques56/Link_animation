@@ -1,25 +1,25 @@
 body {
-    background:rgb(254,255,216);
+    margin: 0;
+    padding: 0;
+    background:rgb(52, 38, 78);
     font-family: 'Roboto', sans-serif;
 }
 
 main {
-    width:645px;
+    width:83%;
     background-color:rgb(255,255,255);
     font-size:14px;
-    box-shadow: 0 0 10px #666;
-    margin:100px auto;
+    box-shadow: 0 0 20px rgb(248, 248, 248);
+    margin:5px auto;
     padding:10px;
     position: relative;
-    height: 302px;
+   
 }
-nav{
-    top: 50px;
-    left: 250px;
-}
+
+
 ul {
-    margin:0;padding:0;
-    width:999px;
+    margin:0 ;padding:0;
+    width:100%;
 }
 
 li {
@@ -29,9 +29,7 @@ li {
     width:207px;
     height:300px;
     border:1px solid #DDD;
-    margin-right:6px;
-    background: red;
-    
+    margin-right:6px;    
 }
 
 a {
